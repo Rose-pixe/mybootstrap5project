@@ -105,8 +105,30 @@
 .text-fields-section{
     background-color: var(--white-color);
     box-shadow: 5px 5px 100px var(--black);
-    margin-top: -20px;
+    top:42rem;
     z-index: 1;
-    position: relative;
-    padding: 20px;
+    left:7.5%;
+    margin-bottom: 20px;
+    position: absolute;
+    padding: 30px;
+    display: flex;
+
+}
+.btn-submit{
+    width: 30%;
+    color: var(--white-color);
+    font-weight: bold;
+}
+.btn-submit:hover{
+   color:var(--white-color);
+}
+.form-input{
+    width: 40%;
+    font-family: sans-serif !important;
+    font-size: 12px;
+}
+option{
+    font-family: sans-serif !important;
+    font-size: 12px;
+    padding:5px;
 }
