@@ -1,0 +1,112 @@
+/* css reset */
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Montserrat";
+}
+/* css variable */
+:root{
+    --dark-blue-shade:#0F172B;
+    --dark-blue-shade:rgb(15, 23, 43);
+    --light-yellow:#FEA116;
+    --white-color:#ffff;
+    --black:#09090a98;
+}
+
+.nav-bg{
+    background-color: var(--dark-blue-shade);
+}
+
+.navbar-brand{
+    font-weight: bold;
+    font-size: 30px;
+    color: var(--light-yellow) !important;
+}
+
+.active{
+    color: var(--light-yellow) !important;
+}
+
+.nav-btn-bg{
+    background-color: var(--light-yellow);
+    color: var(--white-color);
+    font-weight: bold;
+}
+
+.nav-btn-bg:hover{
+    color: var(--white-color);
+}
+
+.nav-item{
+    padding: 0px 5px;
+}
+
+.carousel-bg-img1{
+    background: linear-gradient(rgba(15, 23, 43, 0.7),rgba(15, 23, 43, 0.7)), url(../images/carousel-1.jpg);
+    height: 100vh;
+}
+
+.carousel-bg-img2{
+    background: linear-gradient(rgba(15, 23, 43, 0.7),rgba(15, 23, 43, 0.7)), url(../images/carousel-2.jpg);
+    height: 100vh;
+}
+
+.bg-hero{
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 50%;
+}
+
+.bg-hero h5{
+    font-weight: bold;
+    font-size: 20px;
+}
+.text-side{
+    font-size: 4rem;
+    font-weight: bold;
+}
+.bg-hero .btn-border{
+      border-radius:0;
+      width: 30%;
+      height: 20%;
+      margin: 10px;
+      color: var(--white-color);
+      font-weight: bold;
+
+}
+.bg-hero .btn-border1{
+    border-radius:0;
+    width: 30%;
+    height: 20%;
+    margin: 10px;
+    color:var(--black);
+    font-weight: bold;
+}
+
+.line1{
+    padding: 1px 25px;
+    position: absolute;
+    left: 30%;
+    top: 9%;
+    background-color: var(--light-yellow);
+}
+
+.line2{
+    padding: 1px 25px;
+    position: absolute;
+    left: 62.5%;
+    top: 9%;
+    background-color: var(--light-yellow);
+}
+
+.text-fields-section{
+    background-color: var(--white-color);
+    box-shadow: 5px 5px 100px var(--black);
+    margin-top: -20px;
+    z-index: 1;
+    position: relative;
+    padding: 20px;
+}
